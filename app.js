@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
 // Kết nối tới cơ sở dữ liệu MongoDB
-mongoose.connect('mongodb://0.0.0.0:27017/Shop_app', {
+mongoose.connect('mongodb+srv://Cuong:FiC99PepRJnE1L60@cluster0.kkirguv.mongodb.net/Shop_app', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
