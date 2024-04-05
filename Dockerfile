@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Mở cổng 5000 (hoặc cổng mà ứng dụng của bạn sử dụng)
-EXPOSE 5000
+EXPOSE 10000
 
 # Chạy ứng dụng Node.js
 CMD ["node", "app.js"]
